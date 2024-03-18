@@ -1,0 +1,13 @@
+.body {
+	transition: 300ms transform ease-in-out;
+}
+.overlay {
+	@apply fixed flex items-center justify-center inset-0;
+	background: #061a1499;
+	transition: 300ms opacity ease-in-out;
+	z-index: 5000;
+}
+
+.close {
+	@apply absolute top-[-10px] right-[-10px];
+}
